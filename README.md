@@ -1,2 +1,3 @@
-# portfolio-cms
- Sanity.io Headless CMS for Portfolio 
+# Portfolio CMS
+
+[Sanity.io](https://sanity.io) Headless CMS for Portfolio
