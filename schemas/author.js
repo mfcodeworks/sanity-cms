@@ -37,7 +37,12 @@ export default {
           lists: []
         }
       ]
-    }
+    },
+    {
+      name: 'twitter',
+      title: 'Twitter',
+      type: 'string'
+    },
   ],
   preview: {
     select: {
