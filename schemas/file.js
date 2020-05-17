@@ -1,6 +1,6 @@
 export default {
-  name: 'file',
-  title: 'File',
+  name: 'downloadable',
+  title: 'Downloadable Files',
   type: 'file',
   fields: [
     {
