@@ -8,9 +8,10 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import blockContent from './blockContent'
 import category from './category'
 import post from './post'
+import page from './page'
 import author from './author'
-import tools from './tools';
-import tags from './tags';
+import tools from './tools'
+import tags from './tags'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -22,6 +23,7 @@ export default createSchema({
     // The following are document types which will appear
     // in the studio.
     post,
+    page,
     author,
     category,
     tags,
