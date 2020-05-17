@@ -9,7 +9,7 @@ import blockContent from './blockContent'
 import category from './category'
 import post from './post'
 import page from './page'
-import downloadable from './downloadable'
+import metaFiles from './metaFiles'
 import author from './author'
 import tools from './tools'
 import tags from './tags'
@@ -25,7 +25,7 @@ export default createSchema({
     // in the studio.
     post,
     page,
-    downloadable,
+    metaFiles,
     author,
     category,
     tags,
