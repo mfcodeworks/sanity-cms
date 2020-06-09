@@ -39,6 +39,6 @@
     "sanity-plugin-media": "^0.2.10"
   },
   "devDependencies": {
-    "@sanity/cli": "^1.149.13"
+    "@sanity/cli": "^1.149.16"
   }
 }
