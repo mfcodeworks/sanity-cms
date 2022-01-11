@@ -13,7 +13,7 @@
     "android:run": "npm run build && cd android && gradlew assembleDebug",
     "electron": "npm run build && npx cap open electron",
     "test": "sanity check",
-    "postinstall": "npx cap update"
+    "capacitor:update": "npx cap update"
   },
   "keywords": [
     "sanity"
