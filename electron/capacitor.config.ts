@@ -1,4 +1,6 @@
-{
+import { CapacitorConfig } from '@capacitor/cli';
+
+const config: CapacitorConfig = {
   "appId": "com.mfsoftworks.portfolio",
   "appName": "my-portfolio",
   "bundledWebRuntime": false,
@@ -15,3 +17,5 @@
     }
   }
 }
+
+export default config;
