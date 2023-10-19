@@ -9,10 +9,10 @@
   "scripts": {
     "start": "sanity start",
     "build": "sanity build && npx cap copy",
+    "dev": "sanity dev",
     "android": "npm run build && npx cap open android",
     "android:run": "npm run build && cd android && gradlew assembleDebug",
     "electron": "npm run build && npx cap open electron",
-    "test": "sanity check",
     "capacitor:update": "npx cap update"
   },
   "keywords": [
@@ -22,24 +22,20 @@
     "@capacitor/android": "^2.5.0",
     "@capacitor/cli": "^2.5.0",
     "@capacitor/core": "^2.5.0",
-    "@sanity/base": "^2.23.3",
-    "@sanity/code-input": "^2.23.3",
+    "@sanity/code-input": "^4.1.1",
     "@sanity/components": "^2.14.0",
-    "@sanity/core": "^2.23.2",
-    "@sanity/dashboard": "^2.23.3",
-    "@sanity/default-layout": "^2.23.3",
-    "@sanity/default-login": "^2.23.2",
-    "@sanity/desk-tool": "^2.23.4",
-    "@sanity/vision": "^2.23.3",
+    "@sanity/dashboard": "^3.1.5",
+    "@sanity/vision": "^3.18.1",
     "prop-types": "^15.8.1",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "sanity-plugin-dark-mode": "^0.0.32",
-    "sanity-plugin-dashboard-widget-netlify": "^1.2.1",
-    "sanity-plugin-media": "^1.4.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sanity": "^3.18.1",
+    "sanity-plugin-dark-mode": "^0.0.33",
+    "sanity-plugin-dashboard-widget-netlify": "^2.0.1",
+    "sanity-plugin-media": "^2.2.2",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
-    "@sanity/cli": "^2.23.3"
+    "@sanity/cli": "^3.18.1"
   }
 }
