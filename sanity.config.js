@@ -25,16 +25,16 @@ export default defineConfig({
                 sites: [
                   {
                     title: 'Sanity Studio',
-                    apiId: 'xxxxx-yyyy-zzzz-xxxx-yyyyyyyy',
-                    buildHookId: 'xxxyyyxxxyyyyxxxyyy',
-                    name: 'sanity-gatsby-blog-20-studio',
+                    apiId: '69049695-8e40-4751-88cb-b0b51654f25a',
+                    buildHookId: '5ec0f81ae740ceb8cf1ec617',
+                    name: 'amazing-heisenberg-f45ebc',
                   },
                   {
-                    title: 'Website',
-                    apiId: 'yyyyy-xxxxx-zzzz-xxxx-yyyyyyyy',
-                    buildHookId: 'yyyyxxxxxyyyxxdxxx',
-                    name: 'sanity-gatsby-blog-20-web',
-                    url: 'https://my-sanity-deployment.com',
+                    title: 'Portfolio',
+                    apiId: 'dbe1fb39-4a37-4469-92f6-72131a1afc51',
+                    buildHookId: '5ebea926ca4974bf3f355ad5',
+                    name: 'blissful-mahavira-71a214',
+                    url: 'https://mfcodeworks.com',
                   }
                 ]
             })
