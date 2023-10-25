@@ -28,6 +28,7 @@ export default defineConfig({
                     apiId: '69049695-8e40-4751-88cb-b0b51654f25a',
                     buildHookId: '5ec0f81ae740ceb8cf1ec617',
                     name: 'amazing-heisenberg-f45ebc',
+                    url: 'https://manage.mfcodeworks.com',
                   },
                   {
                     title: 'Portfolio',
